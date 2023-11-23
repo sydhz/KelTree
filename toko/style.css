@@ -1,0 +1,69 @@
+body {
+    font-family: 'Caveat', cursive;
+    background-color: #1c1c1c;
+    color: #ff9900;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+.cokies {
+    width: 300px;
+}
+.order-button {
+    background-color: #ff9900;
+    color: #1c1c1c;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-button:hover {
+    background-color: #e68a00;
+}

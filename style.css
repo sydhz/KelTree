@@ -1,0 +1,128 @@
+body {
+    font-family: 'Caveat', cursive;
+    background-color: #1c1c1c;
+    color: #ff9900;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+.cokies {
+    width: 300px;
+}
+.order-button {
+    background-color: #ff9900;
+    color: #1c1c1c;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-button:hover {
+    background-color: #e68a00;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color:#ff9900;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.search-btn {
+    color: white;
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #e68a00;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ 
+ 
+.search-input {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    width: 0px;
+    line-height: 40px;
+    transition: 0.5s;
+}
+ 
+.search-box:hover > .search-input{
+    width: 240px;
+    padding: 0 10px;
+    margin-right: 5px !important;
+    color: white;
+    border-radius: 5px;
+    color: white;
+}
+ 
+.search-box:hover > .search-btn {
+    background: #e68a00;
+    color: #333;
+}

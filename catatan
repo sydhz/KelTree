@@ -1,0 +1,134 @@
+ <section class="menu">
+        <div class="item">
+            <h3>Bima Putra Wahyudi</h3>
+            <p>Manager</p>
+            <img src="Bima.jpg" alt="Pumpkin Latte">
+            <p>Kelas:XI PPL 2</p>
+            <p>Absen: 07</p>
+        </div>
+        <div class="item">
+            <h3>Bilqis Nur Arsy</h3>
+            <p>Anggota</p>
+            <img src="bilqis.jpg" alt="Pumpkin Latte">
+            <p>Kelas:XI PPL 2</p>
+            <p>Absen: 06</p>
+        </div>
+
+        <div class="item">
+            <h3>Sayyid Ihza Anshari</h3>
+            <p>Anggota</p>
+            <img src="sayyid.jpg" alt="Witches Brew">
+            <p>Kelas:XI PPL 2</p>
+            <p>Absen: 32</p>
+        </div>
+        <div class="item">
+            <h3>Alycia Febriani</h3>
+            <p>Anggota</p>
+            <img src="Alycia.jpg" alt="Pumpkin Latte">
+            <p>Kelas:XI PPL 2</p>
+            <p>Absen: 04</p>
+        </div>
+        <!-- Add more menu items as needed -->
+    </section>
+
+
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Visit us at: SMKN 1 GARUT</p>
+        <p>Email: Kelompok4@gmail.com</p>
+    </section>
+
+
+   <body>
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Search">
+            <a href="#" class="search-btn">
+                <i class="fas fa-search"></i>
+            </a>
+        </ div>
+    </body>  
+    
+    <form action="" method="post" style="float:right">
+
+        <input type="text" name="keyword" autofocus 
+        placeholder="masukkan keyword pencarian" autocomplete="off">
+        <button type="submit" name="cari">Cari!</button>
+     </form>\
+
+
+
+     .order-button {
+        background-color: #ff9900;
+        color: #1c1c1c;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .order-button:hover {
+        background-color: #e68a00;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+    }
+    
+    nav ul li a{
+        color:#ff9900;
+        text-decoration: none;
+        font-size: larger;
+    }
+    
+    .search-btn {
+        color: white;
+        float: right;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #e68a00;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+     
+     
+    .search-input {
+        border: none;
+        background: none;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: white;
+        font-size: 14px;
+        width: 0px;
+        line-height: 40px;
+        transition: 0.5s;
+    }
+     
+    .search-box:hover > .search-input{
+        width: 240px;
+        padding: 0 10px;
+        margin-right: 5px !important;
+        color: white;
+        border-radius: 5px;
+        color: white;
+    }
+     
+    .search-box:hover > .search-btn {
+        background: #e68a00;
+        color: #333;
+    }
+    
